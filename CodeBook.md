@@ -21,7 +21,9 @@ R script called run_analysis.R should perform the following steps:
 
 5- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-**Answer:** 
+**Answer:** Created a new dataset with the averages. It was used the function ddply from plyr package. The outcome is a combination of all distinct subjects and activities.
+
+Final outcome of the step 5 is averages.txt
 
 ## Variables
 
