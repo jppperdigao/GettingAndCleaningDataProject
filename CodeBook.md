@@ -26,5 +26,7 @@ R script called run_analysis.R should perform the following steps:
 Final outcome of the step 5 is averages.txt
 
 ## Variables
+features, activity_labels, subject_Train, x_Train, y_Train, subject_Test, x_Test and y_Test are the variables with the data from the files.
+
 
 
