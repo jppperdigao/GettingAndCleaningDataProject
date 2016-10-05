@@ -23,10 +23,19 @@ R script called run_analysis.R should perform the following steps:
 
 **Answer:** Created a new dataset with the averages. It was used the function ddply from plyr package. The outcome is a combination of all distinct subjects and activities.
 
-Final outcome of the step 5 is averages.txt
+Final outcome of the step 5 is averages.txt.
 
 ## Variables
-features, activity_labels, subject_Train, x_Train, y_Train, subject_Test, x_Test and y_Test are the variables with the data from the files.
+**features**, **activity_labels**, **subject_Train**, **x_Train**, **y_Train**, **subject_Test**, **x_Test** and **y_Test** are the variables with the data from the files.
 
+**x_DataSet**, **y_DataSet** and **subject_DataSet** variables with the merged data.
+
+**x_DataSet1** same that x_DataSet after the transformations of step 2.
+
+**y_DataSet1** same that y_DataSet after the transformations of step 3.
+
+**ALL** merged data from the 3 datasets: x_DataSet1, y_DataSet1 and subject_DataSet.
+
+**avg_ALL** outcome of step 5 with same data of averages.txt.
 
 
