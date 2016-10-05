@@ -80,4 +80,4 @@ avg_ALL <- ddply(ALL, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
 ###### Export to a .txt file
 #?write.table
-write.table(avg_ALL, "averages.txt")
+write.table(avg_ALL, "averages.txt", row.name=FALSE)
